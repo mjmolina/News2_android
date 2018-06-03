@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/newColor"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <PreferenceCategory
+        android:key="general_key"
+        android:persistent="false"
+        android:selectable="false"
+        android:summary=""
+        android:title="General" />
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="author_switch"
+        android:summary="Show or hide the author name"
+        android:title="Display author" />
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="time_switch"
+        android:summary="Show or hide the published time"
+        android:title="Display time" />
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="preview_switch"
+        android:summary="Show or hide the news preview"
+        android:title="Display preview" />
+
+    <PreferenceCategory
+        android:key="categories_key"
+        android:persistent="false"
+        android:selectable="false"
+        android:summary=""
+        android:title="News categories" />
+
+    <MultiSelectListPreference
+        android:defaultValue="@array/empty"
+        android:dialogTitle="@string/sections"
+        android:entries="@array/section_names"
+        android:entryValues="@array/section_names_values"
+        android:key="section_names"
+        android:summary="Available The Guardian categories. If no category is selected, all the news will be displayed."
+        android:title="@string/sections" />
+</PreferenceScreen>

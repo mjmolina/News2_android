@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_listview"
+    android:padding="@dimen/padding_NT">
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/marginBottom_news"
+        android:layout_marginTop="@dimen/marginTop_news"
+        android:textColor="@color/sectionColor"
+        android:textSize="@dimen/TextSize_13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
+        tools:text="Section" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/marginLeft_S_news"
+        android:layout_marginStart="@dimen/marginLeft_S_news"
+        android:layout_marginTop="@dimen/marginTopnews"
+        android:maxLines="3"
+        android:textSize="@dimen/TextSize_16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/date"
+        app:layout_constraintTop_toBottomOf="@+id/section"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="@dimen/Date_height_news"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/marginBottom_news"
+        android:layout_marginTop="@dimen/marginBottom_news"
+        android:textSize="@dimen/TextSize_13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Date" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="@dimen/Author_height_news"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom_news"
+        android:layout_marginEnd="@dimen/marginLeft_S_news"
+        android:layout_marginLeft="@dimen/marginLeft_S_news"
+        android:layout_marginRight="@dimen/marginLeft_S_news"
+        android:layout_marginStart="@dimen/marginLeft_S_news"
+        android:layout_marginTop="@dimen/MarginTop_news"
+        android:gravity="end"
+        android:textAlignment="viewEnd"
+        android:textSize="@dimen/TextSize_13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Author" />
+
+    <TextView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/marginLeft_S_news"
+        android:layout_marginLeft="@dimen/marginLeft_S_news"
+        android:layout_marginRight="@dimen/marginLeft_S_news"
+        android:layout_marginStart="@dimen/marginLeft_S_news"
+        android:justificationMode="inter_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+        app:layout_constraintVertical_bias="0.48"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida gravida quam a pharetra. Donec vehicula posuere risus sit amet cursus. Aenean luctus risus sit amet erat tempus viverra. Aliquam vestibulum, orci quis mollis gravida, leo sem finibus neque, vitae tristique diam quam ac risus. Aliquam convallis leo a commodo aliquam." />
+
+
+</android.support.constraint.ConstraintLayout>

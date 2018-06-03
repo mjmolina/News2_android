@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="newColor">#a9a9a9</color>
+    <color name="colorPrimary">#FAFAF5</color>
+    <color name="sectionColor">#851885</color>
+    <color name="shape">#a9a9a9</color>
+    <color name="colorPrimaryDark">#1c1b17</color>
+    <color name="colorAccent">#89c6cb</color>
+    <color name="White">#FFFFFF</color>
+
+
+</resources>

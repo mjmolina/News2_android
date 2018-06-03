@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextView_padding">20dp</dimen>
+    <dimen name="TextView_marginTop">150dp</dimen>
+    <dimen name="TextView_margin">40dp</dimen>
+    <dimen name="TextSize_18sp">18sp</dimen>
+    <dimen name="TextSize_16sp">16sp</dimen>
+    <dimen name="TextView_margin_NT">37dp</dimen>
+    <dimen name="padding_NT">7dp</dimen>
+    <dimen name="TextView_marginT_NT">96dp</dimen>
+    <dimen name="TextSize_13sp">13sp</dimen>
+    <dimen name="TextView3_margin_NT">66dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="radius">5dp</dimen>
+    <dimen name="shape_padding">3dp</dimen>
+    <dimen name="TextView_marginT">10dp</dimen>
+    <dimen name="TextView_marginT2">95dp</dimen>
+    <dimen name="TextView_marginLR">15dp</dimen>
+    <dimen name="TextView_marginT3">134dp</dimen>
+    <dimen name="MarginTop_Head">70dp</dimen>
+    <dimen name="MarginEnd_R_Start_L_Head">50dp</dimen>
+    <dimen name="height_head">70dp</dimen>
+    <dimen name="marginBottom_news">14dp</dimen>
+    <dimen name="marginTop_news">8dp</dimen>
+    <dimen name="marginLeft_S_news">16dp</dimen>
+    <dimen name="marginTopnews">11dp</dimen>
+    <dimen name="Date_height_news">250dp</dimen>
+    <dimen name="Author_height_news">200dp</dimen>
+    <dimen name="MarginTop_news">8dp</dimen>
+</resources>

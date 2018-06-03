@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">News2</string>
+    <string name="THEGUARDIAN_API">https://content.guardianapis.com/search?&amp;show-tags=contributor&amp;show-fields=bodyText&amp;page-size=20&amp;api-key=6f8ccc6b-3d76-4733-aeea-74e431520ca9</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="emptyList">No news for the selected categories.</string>
+    
+    <string-array name="section_names">
+        <item>UK News</item>
+        <item>Sport</item>
+        <item>Society</item>
+        <item>Art and design</item>
+        <item>Politics</item>
+        <item>World news</item>
+        <item>Music</item>
+        <item>Media</item>
+        <item>Money</item>
+        <item>Life and style</item>
+        <item>Football</item>
+        <item>Culture</item>
+        <item>Books</item>
+        <item>Opinion</item>
+        <item>Technology</item>
+    </string-array>
+
+    <string-array name="section_names_values">
+        <item>uk-news-checked</item>
+        <item>sport-checked</item>
+        <item>society-checked</item>
+        <item>art-and-design-checked</item>
+        <item>politics-checked</item>
+        <item>world-news-checked</item>
+        <item>music-checked</item>
+        <item>media-checked</item>
+        <item>money-checked</item>
+        <item>life-and-style-checked</item>
+        <item>football-checked</item>
+        <item>culture-checked</item>
+        <item>books-checked</item>
+        <item>opinion-checked</item>
+        <item>technology-checked</item>
+    </string-array>
+
+    <string name="sections">Sections</string>
+    <string name="settings">Settings</string>
+    <string-array name="empty" />
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FAFAF5</item>
+        <item name="colorPrimaryDark">#1c1b17</item>
+        <item name="colorAccent">#89c6cb</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name = "AppTheme.NoActionBar">
+        <item name = "windowActionBar">false</item>
+        <item name = "windowNoTitle">true</item>
+    </style>
+
+
+</resources>
